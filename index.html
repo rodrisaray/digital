@@ -1,0 +1,116 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <title>Shine Digital Portfolio - Build, Fix, Grow</title>
+  <meta name="description" content="Professional portfolio showcasing digital marketing, social projects, and business growth. Build, Fix, Grow your skills with us." />
+  <meta name="keywords" content="digital, marketing, portfolio, social, store, shine, ability, light, grow, Blogger, Mailchimp, Google My Business" />
+  <link rel="stylesheet" href="styles.css" />
+</head>
+<body>
+
+  <!-- Header: Open, Address, Shine -->
+  <header role="banner" class="header container">
+    <h1>Shine Digital Portfolio</h1>
+    <nav role="navigation" aria-label="Main Navigation" class="nav-menu">
+      <ul>
+        <li><a href="#about" title="About Me">About</a></li>
+        <li><a href="#blog" title="Latest Blog Posts">Blog</a></li>
+        <li><a href="#projects" title="My Projects">Projects</a></li>
+        <li><a href="#store" title="Store">Store</a></li>
+        <li><a href="#contact" title="Contact Me">Contact</a></li>
+        <li><a href="#social" title="Social Media">Social</a></li>
+      </ul>
+    </nav>
+  </header>
+
+  <main role="main" class="container main-content">
+
+    <!-- About Section: Ability, Give -->
+    <section id="about" aria-label="About Me" class="section about-section">
+      <h2>About Me</h2>
+      <p>Building skills and marketing strategies to help your brand shine and grow in the digital world.</p>
+    </section>
+
+    <!-- Blogger Blog Embed: Digital, Marketing, Social -->
+    <section id="blog" aria-label="Latest Blog Posts" class="section blog-section">
+      <h2>Latest from My Blog</h2>
+      <!-- Replace YOUR_BLOGGER_BLOG_URL with your actual Blogger URL -->
+      <iframe src="https://YOUR_BLOGGER_BLOG_URL" title="Blogger Blog" width="100%" height="400" style="border:none;"></iframe>
+      <p>Stay updated with digital marketing tips and social trends to build and fix your online presence.</p>
+    </section>
+
+    <!-- Projects Section: Store, Give -->
+    <section id="projects" aria-label="My Projects" class="section projects-section">
+      <h2>Projects</h2>
+      <div class="grid portfolio-grid" aria-live="polite">
+        <!-- Portfolio items will be dynamically loaded here -->
+      </div>
+      <button id="load-more-btn" class="button" aria-label="Load more projects">Load More</button>
+    </section>
+
+    <!-- Store Section: Digital Store & Ability -->
+    <section id="store" aria-label="Store" class="section store-section">
+      <h2>Store</h2>
+      <p>Explore digital marketing tools and products designed to help your business shine.</p>
+      <!-- Example: Embedded Google My Business Store or Listings -->
+      <iframe 
+        src="https://www.google.com/maps/embed/v1/place?key=YOUR_GOOGLE_API_KEY&q=Your+Business+Name+Address" 
+        width="100%" height="300" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade" 
+        title="Google My Business Location">
+      </iframe>
+      <p>Visit us to experience our services and grow your business.</p>
+    </section>
+
+    <!-- Contact Section: Address, Give -->
+    <section id="contact" aria-label="Contact Me" class="section contact-section">
+      <h2>Contact Me</h2>
+      <form id="contact-form" aria-describedby="form-status" novalidate>
+        <label for="name">Name</label>
+        <input type="text" id="name" name="name" required aria-required="true" placeholder="Your name" />
+
+        <label for="email">Email</label>
+        <input type="email" id="email" name="email" required aria-required="true" placeholder="Your email" />
+
+        <label for="message">Message</label>
+        <textarea id="message" name="message" rows="5" required aria-required="true" placeholder="Write your message"></textarea>
+
+        <button type="submit" class="button">Send Message</button>
+        <p id="form-status" role="alert" aria-live="assertive"></p>
+      </form>
+
+      <!-- Mailchimp Signup Form Embed -->
+      <div class="mailchimp-signup">
+        <h3>Subscribe to Newsletter</h3>
+        <!-- Replace YOUR_MAILCHIMP_EMBED_URL with your actual Mailchimp form URL -->
+        <iframe 
+          src="YOUR_MAILCHIMP_EMBED_URL" 
+          width="100%" height="300" frameborder="0" scrolling="no" 
+          title="Mailchimp Newsletter Signup">
+        </iframe>
+      </div>
+    </section>
+
+  </main>
+
+  <!-- Social Section: Social, Give -->
+  <aside id="social" aria-label="Social Media Links" class="section social-section container">
+    <h2>Connect with Me</h2>
+    <ul class="social-links" role="list">
+      <li><a href="https://twitter.com/yourhandle" target="_blank" rel="noopener noreferrer" aria-label="Twitter">Twitter</a></li>
+      <li><a href="https://linkedin.com/in/yourhandle" target="_blank" rel="noopener noreferrer" aria-label="LinkedIn">LinkedIn</a></li>
+      <li><a href="https://facebook.com/yourpage" target="_blank" rel="noopener noreferrer" aria-label="Facebook">Facebook</a></li>
+      <!-- Add more platforms as needed -->
+    </ul>
+  </aside>
+
+  <!-- Footer: Light, Ray, Room -->
+  <footer role="contentinfo" class="footer container">
+    <p>© 2025 Shine Digital Portfolio. Built to help you <strong>Build, Fix, and Grow</strong>.</p>
+  </footer>
+
+  <script src="script.js"></script>
+
+</body>
+</html>
